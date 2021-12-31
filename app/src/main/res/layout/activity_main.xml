@@ -22,8 +22,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:text="@string/numberAdd"
-        app:layout_constraintEnd_toStartOf="@id/clearButton"
-        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numberPicker" />
 
@@ -33,12 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
+        android:text="@string/clearAdd"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
-        android:text="@string/clearAdd"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/addButton"
-        app:layout_constraintTop_toBottomOf="@id/numberPicker" />
+        app:layout_constraintTop_toBottomOf="@id/addButton" />
 
     <Button
         android:id="@+id/runButton"
@@ -59,7 +58,7 @@
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/addButton">
+        app:layout_constraintTop_toBottomOf="@id/clearButton">
 
         <TextView
             android:id="@+id/textView1"
@@ -79,8 +78,8 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/circle_yellow"
             android:layout_margin="7dp"
+            android:background="@drawable/circle_yellow"
             android:gravity="center"
             android:text="@string/TextViewTwo"
             android:textColor="@color/white"
@@ -94,8 +93,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="7dp"
-            android:gravity="center"
             android:background="@drawable/circle_red"
+            android:gravity="center"
             android:text="@string/TextViewThree"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -122,8 +121,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="7dp"
-            android:gravity="center"
             android:background="@drawable/circle_green"
+            android:gravity="center"
             android:text="@string/TextViewFive"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -136,8 +135,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="7dp"
-            android:gravity="center"
             android:background="@drawable/circle_green"
+            android:gravity="center"
             android:text="@string/TextViewSix"
             android:textColor="@color/white"
             android:textSize="18sp"
