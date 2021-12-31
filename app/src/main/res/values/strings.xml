@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Number002-lottoNumber</string>
+    <string name="app_name">로또번호 추첨기</string>
     <string name="numberAdd">번호 추가하기</string>
     <string name="clearAdd">초기화</string>
     <string name="autoAddStart">자동 생성 시작</string>
@@ -8,4 +8,5 @@
     <string name="TextViewThree">3</string>
     <string name="TextViewFour">4</string>
     <string name="TextViewFive">5</string>
+    <string name="TextViewSix">6</string>
 </resources>
